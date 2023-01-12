@@ -35,9 +35,10 @@ nav li{
 }
 /* banner styles */
 .banner{
-    margin: 32 150px;
     display: flex;
     align-items: center;
+    margin: 0 250px;
+
 }
 .banner-title{
 font-weight: 700;
@@ -55,7 +56,7 @@ font-size: 85px;}
 
 }
 .header{
-    background: #fff8ff;
+    background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -126,4 +127,32 @@ margin-bottom: 30px;
 }
 .skill-description{
  color: #757575;
+}
+/* resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    margin-bottom: 10px;
+   font-weight: 700;
+   font-size: 25px;
+   color: #474747;
+}
+.resume .sub-title{
+   color: #757575;
+   font-weight: 600;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.resume .description{
+color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
