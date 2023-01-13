@@ -33,11 +33,21 @@ nav li{
     border-radius: 5px;
     background: #FD6E0A;
 }
+.button-secondery{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 10;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: white;
+}
 /* banner styles */
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 250px;
+    margin: 5 250px;
 
 }
 .banner-title{
